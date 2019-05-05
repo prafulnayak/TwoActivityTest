@@ -52,13 +52,14 @@ public class MainActivity extends AppCompatActivity {
         // Give the recycler view a default layout manager.
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        int a =5;
+        int a =10;
         int b = 6;
         result = calculatePlus(a, b);
 
     }
 
     public int calculatePlus(int a, int b) {
-        return a+b;
+        int c = a+b;
+        return c;
     }
 }
